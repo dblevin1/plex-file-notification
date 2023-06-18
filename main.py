@@ -207,7 +207,7 @@ def main():
         send_pushbullet('New Content', addedStr)
         print(addedStr)
     if removedStr:
-        send_pushbullet('Removed Content', addedStr)
+        send_pushbullet('Removed Content', removedStr)
         print(removedStr)
     return
 
